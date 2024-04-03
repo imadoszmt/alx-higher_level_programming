@@ -9,9 +9,8 @@ def safe_print_list(my_list=[], x=0):
             print("{:}".format(element), end="")
             counter += 1
             if counter >= x:
-                print()
-                return counter
-        except:
+                break
+        except TypeError:
             pass
     print()
     return counter
