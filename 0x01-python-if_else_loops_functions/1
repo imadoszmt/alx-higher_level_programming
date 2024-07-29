@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+
+def print_tebahpla():
+    print("{alphabet}".format((chr(122 - alphabet) if alphabet % 2 == 0 else chr(90 - (alphabet - 1))) for alphabet in range (26), end="")
