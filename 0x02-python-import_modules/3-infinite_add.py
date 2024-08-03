@@ -6,7 +6,7 @@ def main():
     adder = 0
     for arg in sys.argv[1:]:
         adder = adder + int(arg)
-        
+
     print(adder)
 
 
