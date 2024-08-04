@@ -18,6 +18,7 @@ def main():
             print(f'{a} / {b} = {div(a, b)}')
         else:
             print('Unknown operator. Available operators: +, -, * and /')
+            sys.exit(1)
     else:
         print('Usage: ./100-my_calculator.py <a> <operator> <b>')
         sys.exit(1)
