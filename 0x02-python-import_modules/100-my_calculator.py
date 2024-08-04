@@ -17,7 +17,7 @@ def main():
         elif sys.argv[2] == '/':
             print(f'{a} / {b} = {div(a, b)}')
         else:
-            print('Unknown operator. Only: +, -, * and / available')
+            print('Unknown operator. Available operators: +, -, * and /')
     else:
         print('Usage: ./100-my_calculator.py <a> <operator> <b>')
         sys.exit(1)
