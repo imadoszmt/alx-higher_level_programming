@@ -2,5 +2,10 @@
 
 def print_matrix_integer(matrix=[[]]):
     for inner_mx in matrix:
-        print("{:d} {:d} {:d}".format(*inner_mx), end='')
+        for index, element in enumerate(inner_mx):
+            print("{:d}".format(element), end='')
+
+            if index < len(inner_mx) - 1:
+                print(" ", end='')
+
         print()
