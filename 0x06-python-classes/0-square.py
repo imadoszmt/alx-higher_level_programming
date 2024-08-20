@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 
-class square:
+class Square:
     """This is an empty class named 'square' declaration"""
+    pass
