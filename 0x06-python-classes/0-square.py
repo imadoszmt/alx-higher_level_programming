@@ -2,6 +2,8 @@
 """
 This module define a square shape class
 """
+
+
 class Square:
     """
     This is a class that represent square shape
