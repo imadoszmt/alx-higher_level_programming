@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 This module define a square shape class that have as attributes
-a private instance __size, which we get control over it through 
+a private instance __size, which we get control over it through
 setters and getters. Ass a methods it have the initializer __init__
 and area() and my_print which they calculate and print the area of
 the square successively.
