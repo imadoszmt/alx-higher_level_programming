@@ -7,7 +7,7 @@ This module define a square shape class
 class Square:
     """
     This is a class that represent a square shape.
-    
+
     Attributes:
         __size: Private instance attribute of square's size.
     """
