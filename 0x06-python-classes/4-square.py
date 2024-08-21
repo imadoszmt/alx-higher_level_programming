@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 This module define a square shape class that calculate its area,
-also access and update its private attribute through getters and 
+also access and update its private attribute through getters and
 setters which is here '__size'.
 """
 
