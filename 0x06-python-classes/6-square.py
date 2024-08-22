@@ -77,15 +77,13 @@ class Square:
         start printing the lines of the square with y value and the reserved
         space beforehand each square line with x value.
         """
-        printed_size = self.__size
-        positions = self.__position
 
-        if printed_size == 0:
+        if self.__size == 0:
             print()
             return
 
-        for _ in range(positions[1]):
+        for _ in range(self.__position[1]):
             print()
 
-        for _ in range(printed_size):
-            print(" " * positions[0] + "#" * printed_size)
+        for _ in range(self.__size):
+            print(" " * self.__position[0] + "#" * self.__size)
