@@ -58,8 +58,10 @@ class Square:
 
     @position.setter
     def position(self, value):
-        if value is not tuple or len(value) != 2 or not all(value is int and i >= 0 for i in value):
+        if isinstance(value, tuple) or len(value) != 2 or 
+        not all(isinstance(value, int) and i >= 0 for i in value):
             raise TypeError("position must be a tuple of 2 positive integers")
+
         self.__position = value
 
     def area(self):
@@ -71,9 +73,9 @@ class Square:
     def my_print(self):
         """
         Method that print the square based on the provided size. In addition
-        use the value of position tuple(x, y) to set the number of line before start
-        printing the lines of the square with y value and the reserved space
-        beforehand each square line with x value.
+        use the value of position tuple(x, y) to set the number of line before
+        start printing the lines of the square with y value and the reserved
+        space beforehand each square line with x value.
         """
         printed_size = self.__size
         positions = self.__position
