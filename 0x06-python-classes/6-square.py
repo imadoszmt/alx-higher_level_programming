@@ -22,14 +22,14 @@ class Square:
         Method that initializes a new instance of the square class.
 
         Args:
-            size: The size of the square.
-            position: A tuple (x, y), where x is the number of spaces
+            size (int): The size of the square.
+            position (tuple): A tuple (x, y), where x is the number of spaces
                     before each line of square and y is the number of
                     empty line to print before the square starts.
     """
 
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     @property
     def size(self):
