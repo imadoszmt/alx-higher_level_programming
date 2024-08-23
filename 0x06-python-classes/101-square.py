@@ -108,7 +108,7 @@ class Square:
         for _ in range(self.__size):
             print(" " * self.__position[0] + "#" * self.__size)
 
-    def __init__(self):
+    def __str__(self):
         """
         Function invoked inside print() function when trying to peint
         an object/instance and behave same as my_print() function.
