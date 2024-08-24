@@ -114,7 +114,7 @@ class Square:
         an object/instance and behave same as my_print() function.
         """
         if self.__size == 0:
-                return ""
+            return ""
         result = []
         for _ in range(self.__position[1]):
             result.append("\n")
