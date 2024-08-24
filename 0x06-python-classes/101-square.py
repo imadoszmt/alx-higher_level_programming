@@ -113,9 +113,9 @@ class Square:
         Function invoked inside print() function when trying to peint
         an object/instance and behave same as my_print() function.
         """
-        result = []
         if self.__size == 0:
-            return "\n"
+                return ""
+        result = []
         for _ in range(self.__position[1]):
             result.append("\n")
         for _ in range(self.__size):
